@@ -4,9 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
-#app {
-  max-width: 1280px;
-  font-weight: normal;
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 a,
@@ -16,13 +31,4 @@ a,
   transition: 0.4s;
   padding: 3px;
   transition: transform 0.5s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    transform: scale(1.2);
-  }
-}
-
-@media (min-width: 1024px) {
 }

@@ -6,16 +6,16 @@ import { RouterLink, RouterView } from 'vue-router'
   <header class="container">
     <nav class="flex justify-between items-center">
       <section class="flex flex-col justify-start items-end">
-        <p class="text-xl">// rijvy</p>
-        <p class="text-sm text-blue-700">web dev</p>
+        <p class="text-3xl">// rijvy</p>
+        <p class="text-xl text-blue-700">web dev</p>
       </section>
       <section class="nav-items">
-        <RouterLink class="px-7" to="/">_home</RouterLink>
-        <RouterLink class="px-7" to="/about">_about</RouterLink>
-        <RouterLink class="px-7" to="/portfolio">_portfolio</RouterLink>
-        <RouterLink class="px-7" to="/services">_services</RouterLink>
-        <RouterLink class="px-7" to="/resume">_resume</RouterLink>
-        <RouterLink class="pl-7" to="/contact">_contact</RouterLink>
+        <RouterLink class="px-7 text-xl" to="/">_home</RouterLink>
+        <RouterLink class="px-7 text-xl" to="/about">_about</RouterLink>
+        <RouterLink class="px-7 text-xl" to="/portfolio">_portfolio</RouterLink>
+        <RouterLink class="px-7 text-xl" to="/services">_services</RouterLink>
+        <RouterLink class="px-7 text-xl" to="/resume">_resume</RouterLink>
+        <RouterLink class="pl-7 text-xl" to="/contact">_contact</RouterLink>
       </section>
       <section class="visit-blog"></section>
     </nav>
