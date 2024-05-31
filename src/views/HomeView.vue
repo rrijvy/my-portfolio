@@ -8,12 +8,12 @@
         <span> "}</span>
       </div>
     </div>
-    <div class="pt-16">
+    <div class="pt-36">
       <div class="text-center">
         <p class="text-rose-200 text-3xl">{{ '{#}' }}</p>
         <p class="text-rose-200 text-3xl">{{ '<services>' }}</p>
-        <p class="pt-5 text-2xl">I offer a comprehensive range of services tailored to meet the unique needs of each project. Specializing in full-stack web development, I excel in crafting robust and scalable software solutions using cutting-edge technologies such as C#, JavaScript, Python, and various frameworks like React.js, Vue.js, nodeJs, .NET CORE and Django. Whether it's developing custom web applications, designing intuitive user interfaces, or optimizing database performance, I bring a wealth of experience and expertise to every project. Let's collaborate to bring your software ideas to life and drive your business forward.</p>
-        <table class="mx-auto mt-5 text-4xl cursor-none">
+        <p class="pt-10 text-2xl w-3/4 mx-auto">{{ 'As a full-stack developer, I specialize in creating robust, scalable software solutions using the latest technologies, including C#, JavaScript, Python, and leading frameworks like React.js, Vue.js, Node.js, .NET Core, and Django.' }}</p>
+        <table class="mx-auto mt-10 text-3xl cursor-none">
           <tbody>
             <tr class="text-left">
               <td ref="service1" class="px-10 hover:bg-neutral-800"></td>

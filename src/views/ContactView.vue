@@ -6,16 +6,16 @@
         <a class="text-current" href="https://www.facebook.com/s.rijvy" target="_blank">
           <font-awesome-icon icon="fa-brands fa-square-facebook" size="4x"
         /></a>
-        <a class="text-current" href="https://www.facebook.com/s.rijvy" target="_blank"
+        <a class="text-current" href="https://www.linkedin.com/in/rrijvy" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-linkedin" size="4x"
         /></a>
-        <a class="text-current" href="https://www.facebook.com/s.rijvy" target="_blank"
+        <a class="text-current" href="https://github.com/rrijvy" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-square-github" size="4x"
         /></a>
-        <a class="text-current" href="https://www.facebook.com/s.rijvy" target="_blank"
+        <a class="text-current" href="https://www.npmjs.com/package/rx-pdf-viewer" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-npm" size="4x"
         /></a>
-        <a class="text-current" href="https://www.facebook.com/s.rijvy" target="_blank"
+        <a class="text-current" href="https://www.upwork.com/freelancers/~01f7a7b1007c281270" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-square-upwork" size="4x"
         /></a>
       </div>
