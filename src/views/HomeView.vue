@@ -97,7 +97,7 @@ const getTypedElement = (element: HTMLElement, values: Array<string>, loop: bool
 
 onMounted(() => {
   if (typedElement.value) 
-    getTypedElement(typedElement.value, ['front-end developer', 'full stack engineer', 'web designer']);
+    getTypedElement(typedElement.value, ['front-end developer', 'back-end developer', 'full stack engineer']);
   if (service1.value) 
     getTypedElement(service1.value, ['Web Development'], false);
   if (service2.value) 

@@ -39,7 +39,7 @@
               <p class="text-2xl text-white">
                 Junior Software Developer at Alphasoft Technology Limited
               </p>
-              <p class="text-xl">
+              <p class="pt-2 text-xl">
                 Built ERP systems for Keya Cosmetics Ltd. in Bangladesh, focusing particularly on
                 the payroll system. Additionally, I maintain other systems such as POS and
                 attendance systems. Collaborate with a small group of talented individuals.
@@ -50,7 +50,7 @@
             <td><p class="pt-2 text-white text-l">July 2020 - July 2022</p></td>
             <td>
               <p class="text-2xl text-white">Associate Software Engineer at Kaz Software</p>
-              <p class="text-xl">
+              <p class="pt-2 text-xl">
                 Build various kind of solutions mostly web based. Build tax related software. Doing
                 continuos development and continuos integration.
               </p>
@@ -60,7 +60,7 @@
             <td><p class="pt-2 text-white text-l">July 2022 - Present</p></td>
             <td>
               <p class="text-2xl text-white">Software Engineer at Kaz Software</p>
-              <p class="text-xl">
+              <p class="pt-2 text-xl">
                 Working on robust applications, Built an ERP from scratch and designed it
                 efficiently. I implemented CI/CD using various AWS services. Additionally, I
                 developed a desktop application to ensure seamless synchronization with the web.
