@@ -1,10 +1,10 @@
 <template>
-  <div class="container pt-8">
+  <div class="container pt-8 font-family-titillium">
     <div class="flex">
       <img class="rounded" src="../assets/images/myself.jpeg" width="450" />
       <div class="pl-16">
         <p class="text-4xl pb-4">Myself, Ashikur Rahman Rijvy</p>
-        <p class="text-2xl">
+        <p class="text-xl">
           <span>
             I'm a dedicated software engineer with a lifelong passion for technology. My journey
             began with a fascination for computer as a child, which naturally led me to pursue
@@ -31,15 +31,15 @@
       </div>
     </div>
     <div class="pt-16 w-8/12 float-right">
-      <table class="table-exp text-2xl">
+      <table class="table-exp">
         <tbody>
           <tr>
-            <td><p class="text-white">July 2020 - July 2022</p></td>
+            <td><p class="pt-2 text-white text-l">January 2019 - March 2020</p></td>
             <td>
-              <p class="text-3xl text-white">
+              <p class="text-2xl text-white">
                 Junior Software Developer at Alphasoft Technology Limited
               </p>
-              <p>
+              <p class="text-xl">
                 Built ERP systems for Keya Cosmetics Ltd. in Bangladesh, focusing particularly on
                 the payroll system. Additionally, I maintain other systems such as POS and
                 attendance systems. Collaborate with a small group of talented individuals.
@@ -47,25 +47,25 @@
             </td>
           </tr>
           <tr>
-            <td><p class="text-white">July 2020 - July 2022</p></td>
+            <td><p class="pt-2 text-white text-l">July 2020 - July 2022</p></td>
             <td>
-              <p class="text-3xl text-white">Associate Software Engineer at Kaz Software</p>
-              <p>
+              <p class="text-2xl text-white">Associate Software Engineer at Kaz Software</p>
+              <p class="text-xl">
                 Build various kind of solutions mostly web based. Build tax related software. Doing
                 continuos development and continuos integration.
               </p>
             </td>
           </tr>
           <tr>
-            <td><p class="text-white">July 2022 - Present</p></td>
+            <td><p class="pt-2 text-white text-l">July 2022 - Present</p></td>
             <td>
-              <p class="text-3xl text-white">Software Engineer at Kaz Software</p>
-              <p>
+              <p class="text-2xl text-white">Software Engineer at Kaz Software</p>
+              <p class="text-xl">
                 Working on robust applications, Built an ERP from scratch and designed it
                 efficiently. I implemented CI/CD using various AWS services. Additionally, I
                 developed a desktop application to ensure seamless synchronization with the web.
               </p>
-              <p class="pt-2">
+              <p class="pt-2 text-xl">
                 Lead the development and architecture of technical tools like content management
                 systems, REST APIs, and continuous integration pipelines to fulfill business
                 requirements.

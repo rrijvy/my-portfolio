@@ -86,6 +86,36 @@
   src: url('./fonts/SourceCodePro-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'titillium_web';
+  font-weight: 400;
+  src: url('./fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titillium_web';
+  font-weight: 300;
+  src: url('./fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titillium_web';
+  font-weight: 500;
+  src: url('./fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titillium_web';
+  font-weight: 600;
+  src: url('./fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titillium_web';
+  font-weight: 700;
+  src: url('./fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
 *,
 *::before,
 *::after {
@@ -100,8 +130,12 @@ body {
   transition:
     color 0.5s,
     background-color 0.5s;
-  font-family: vt-323, source-code-pro;
+  font-family: vt-323, source-code-pro, titillium_web;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.font-family-titillium {
+  font-family: titillium_web;
 }
