@@ -5,13 +5,28 @@
       <div class="pl-16">
         <p class="text-4xl pb-4">Myself, Ashikur Rahman Rijvy</p>
         <p class="text-2xl">
-          Fascinated with electronics since childhood. From there, I studied in the Faculty of
-          Science, then studied computer science and engineering at the university, and now I have
-          established myself as a software engineer. I love to learn new things and implement them,
-          that's my passion. Although I am more curious about space but never got to know well due
-          to lack of sources. However, I have been working as a software engineer for the past 4
-          years in a reputed company in Bangladesh. When I'm not at the computer, I'm usually
-          reading, playing cricket or hanging out with my family and two cats.
+          <span>
+            I'm a dedicated software engineer with a lifelong passion for technology. My journey
+            began with a fascination for computer as a child, which naturally led me to pursue
+            studies in the Faculty of Science.
+          </span>
+          <br />
+          <span>
+            For the past four years, I've been fortunate to work as a software engineer at a reputed
+            company in Bangladesh, where I thrive on learning new technologies and applying them to
+            solve complex problems. My commitment to continuous improvement and innovation drives me
+            to stay at the forefront of the tech industry.
+          </span>
+          <br />
+          <span>
+            Outside of my professional life, I enjoy reading, playing cricket, and spending quality
+            time with my family and two cats. These activities help me maintain a well-rounded and
+            balanced lifestyle.
+          </span>
+          <br />
+          <span>
+            Thank you for visiting my portfolio. Feel free to explore my projects and get in touch!
+          </span>
         </p>
       </div>
     </div>
