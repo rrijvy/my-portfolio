@@ -157,3 +157,7 @@ body {
 .font-family-titillium {
   font-family: titillium_web;
 }
+
+.w_32 {
+  width: 32%;
+}
