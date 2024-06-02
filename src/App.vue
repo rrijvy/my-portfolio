@@ -4,9 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header class="container">
-    <nav class="flex flex-wrap justify-between items-center">
+    <nav class="flex justify-between items-center">
       <section class="flex flex-col justify-start items-end">
-        <p class="text-3xl sm:text-2xl">// rijvy</p>
+        <p class="text-3xl">// rijvy</p>
         <p class="text-xl text-blue-700">web dev</p>
       </section>
       <section class="nav-items">
@@ -19,17 +19,12 @@ import { RouterLink, RouterView } from 'vue-router'
       </section>
       <section class="visit-blog"></section>
     </nav>
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
   </header>
-  <main>
-    <RouterView />
-  </main>
+  <RouterView />
 </template>
 
 <style scoped>
-.nav-items {
-  display: flex;
-  flex-wrap: wrap;
-}
 .nav-items > a {
   transition: transform 0.2s;
 }
