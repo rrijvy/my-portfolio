@@ -31,3 +31,6 @@ coverage
 
 test-results/
 playwright-report/
+
+# Vite temp build artifacts
+vite.config.ts.timestamp-*.mjs

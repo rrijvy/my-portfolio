@@ -8,7 +8,7 @@ import { profile } from '@/data/profile'
       <p class="section-label">Selected work</p>
       <h2 id="work-heading" class="section-title">Open source & personal projects</h2>
       <p class="section-lead">
-        A sample of products and tools I’ve built outside client delivery — full-stack apps,
+        A sample of products and tools I’ve built outside client delivery, full-stack apps,
         extensions, and libraries.
       </p>
     </div>

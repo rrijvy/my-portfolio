@@ -45,10 +45,10 @@ export const profile = {
   email: 'rrijvy@gmail.com',
   headline: 'Building scalable ERP, document-automation, and SaaS products.',
   tagline:
-    '7+ years shipping cloud-native business software across .NET and TypeScript/Node on AWS — from serverless EDI pipelines to LLM-based extraction and multi-tenant compliance platforms.',
+    '7+ years shipping cloud-native business software across .NET and TypeScript/Node on AWS, from serverless EDI pipelines to LLM-based extraction and multi-tenant compliance platforms.',
   about: [
     'I design and deliver reliable software with clean architecture and strong developer experience. At KAZ Software I lead work on supply-chain platforms, document intelligence, e-invoicing compliance, and regulatory-AI systems.',
-    'Outside client work I publish open-source tooling — PDF viewers, Chrome extensions, crawlers, and full-stack products — because shipping in public keeps the craft sharp.'
+    'Outside client work I publish open-source tooling, PDF viewers, Chrome extensions, crawlers, and full-stack products, because shipping in public keeps the craft sharp.'
   ],
   resumeHref: `${import.meta.env.BASE_URL}resume.pdf`,
   nav: [
@@ -99,7 +99,7 @@ export const profile = {
     {
       name: 'Ecommerce Platform',
       summary:
-        'Online store and admin console — shoppers browse and buy while staff manage catalog, orders, and stock.',
+        'Online store and admin console, shoppers browse and buy while staff manage catalog, orders, and stock.',
       stack: ['Next.js 15', '.NET 10', 'MongoDB', 'AWS Lambda']
     },
     {
@@ -111,7 +111,7 @@ export const profile = {
     {
       name: 'Vocaly',
       summary:
-        'Chrome extension for voice typing on any website in English and Bengali — speech to text in any input field.',
+        'Chrome extension for voice typing on any website in English and Bengali, speech to text in any input field.',
       stack: ['Manifest V3', 'Web Speech API', 'Google Cloud']
     },
     {
@@ -124,7 +124,7 @@ export const profile = {
     {
       name: 'Colorful Copy Manager',
       summary:
-        'Chrome extension that keeps recent clipboard history locally so you can re-copy later — nothing stored externally.',
+        'Chrome extension that keeps recent clipboard history locally so you can re-copy later, nothing stored externally.',
       stack: ['TypeScript', 'Chrome Extension']
     },
     {
@@ -142,7 +142,7 @@ export const profile = {
     {
       name: 'UpAlert',
       summary:
-        'Job-alert mobile app — save search filters, get matched openings, and track applications in one feed.',
+        'Job-alert mobile app, save search filters, get matched openings, and track applications in one feed.',
       stack: ['Expo', 'React Native']
     }
   ] as ProjectItem[],
