@@ -10,31 +10,16 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: () => import('../views/PortfolioView.vue')
-    },
-    {
-      path: '/services',
-      name: 'services',
-      component: () => import('../views/ServicesView.vue')
-    },
-    {
-      path: '/resume',
-      name: 'resume',
-      component: () => import('../views/ResumeView.vue')
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('../views/ContactView.vue')
+      path: '/:pathMatch(.*)*',
+      redirect: '/'
     }
-  ]
+  ],
+  scrollBehavior(to) {
+    if (to.hash) {
+      return { el: to.hash, behavior: 'smooth', top: 100 }
+    }
+    return { top: 0 }
+  }
 })
 
 export default router

@@ -4,14 +4,45 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+@layer components {
+  .section-shell {
+    @apply relative mx-auto w-full max-w-content px-5 py-20 sm:px-6 md:px-8 lg:py-28;
+  }
+
+  .section-label {
+    @apply mb-3 font-mono text-xs font-medium uppercase tracking-[0.18em] text-sky;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl;
+  }
+
+  .section-lead {
+    @apply mt-4 max-w-2xl text-base text-ink/75 sm:text-lg;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-md bg-ember px-5 py-2.5 font-semibold text-white transition hover:bg-ember/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-md border border-ink/15 bg-white/70 px-5 py-2.5 font-semibold text-ink backdrop-blur-sm transition hover:border-sky hover:text-sky focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky;
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-4;
+  }
+
+  .reveal.is-visible {
+    @apply animate-fade-up opacity-100 translate-y-0;
+  }
 }
 
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
 }
