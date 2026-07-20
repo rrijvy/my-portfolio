@@ -12,7 +12,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <section id="top" class="section-shell min-h-[calc(100vh-var(--header-height))] !pb-16 !pt-16 lg:!pt-24">
+  <section
+    id="top"
+    class="section-shell min-h-[calc(100vh-var(--header-height))] !pb-16 !pt-16 lg:!pt-24"
+  >
     <div class="grid items-end gap-12 lg:grid-cols-12 lg:gap-8">
       <div class="lg:col-span-10">
         <p
@@ -30,14 +33,14 @@ onMounted(() => {
         </h1>
 
         <p
-          class="mt-6 max-w-2xl font-display text-xl font-semibold text-ink/85 transition duration-700 delay-200 sm:text-2xl"
+          class="mt-6 max-w-2xl font-display text-xl font-semibold text-ink transition duration-700 delay-200 sm:text-2xl"
           :class="ready ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
           {{ profile.headline }}
         </p>
 
         <p
-          class="mt-4 max-w-2xl text-base text-ink/70 transition duration-700 delay-300 sm:text-lg"
+          class="mt-4 max-w-2xl text-lg leading-relaxed text-ink/90 transition duration-700 delay-300 sm:text-xl"
           :class="ready ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
           {{ profile.tagline }}
@@ -53,19 +56,16 @@ onMounted(() => {
         </div>
       </div>
 
-      <div
-        class="hidden lg:col-span-2 lg:flex lg:justify-end"
-        aria-hidden="true"
-      >
+      <div class="hidden lg:col-span-2 lg:flex lg:justify-end" aria-hidden="true">
         <div
-          class="font-mono text-[10px] uppercase leading-5 tracking-[0.2em] text-ink/35 transition duration-1000 delay-500"
+          class="font-mono text-[10px] font-medium uppercase leading-5 tracking-[0.2em] text-ink/55 transition duration-1000 delay-500"
           :class="ready ? 'opacity-100' : 'opacity-0'"
         >
           <p>pipeline</p>
-          <p>→ erp</p>
           <p>→ edi</p>
           <p>→ llm</p>
           <p>→ saas</p>
+          <p>→ aws</p>
         </div>
       </div>
     </div>

@@ -65,7 +65,7 @@ function isActive(id: string) {
           :class="
             isActive(item.id)
               ? 'bg-sky-soft text-sky'
-              : 'text-ink/70 hover:bg-white/70 hover:text-ink'
+              : 'text-ink/80 hover:bg-white hover:text-ink'
           "
           @click.prevent="scrollTo(item.id)"
         >
@@ -149,15 +149,15 @@ function isActive(id: string) {
     </main>
   </div>
 
-  <footer class="border-t border-ink/10 bg-white/40">
+  <footer class="border-t border-ink/15 bg-white/70">
     <div
-      class="mx-auto flex max-w-content flex-col gap-3 px-5 py-10 text-sm text-ink/60 sm:flex-row sm:items-center sm:justify-between sm:px-6 md:px-8"
+      class="mx-auto flex max-w-content flex-col gap-3 px-5 py-10 text-sm text-ink/80 sm:flex-row sm:items-center sm:justify-between sm:px-6 md:px-8"
     >
       <p>
         © {{ new Date().getFullYear() }} {{ profile.name }}. Built as a static site for GitHub
         Pages.
       </p>
-      <p class="font-mono text-xs uppercase tracking-wider text-ink/45">Signal Atlas</p>
+      <p class="font-mono text-xs font-medium uppercase tracking-wider text-ink/60">Signal Atlas</p>
     </div>
   </footer>
 </template>

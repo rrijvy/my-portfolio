@@ -9,7 +9,7 @@ import { profile } from '@/data/profile'
       <h2 id="experience-heading" class="section-title">Where the work happened</h2>
       <p class="section-lead">
         From hospital systems and payroll to multi-tenant SaaS, document intelligence, and
-        regulatory AI on AWS.
+        regulatory AI on AWS and Azure.
       </p>
     </div>
 
@@ -17,7 +17,7 @@ import { profile } from '@/data/profile'
       <li
         v-for="(job, index) in profile.experience"
         :key="job.company"
-        class="reveal relative border-l border-mist pl-8 pb-14 last:pb-0"
+        class="reveal relative border-l-2 border-mist pl-8 pb-14 last:pb-0"
         data-reveal
       >
         <span
@@ -27,15 +27,16 @@ import { profile } from '@/data/profile'
 
         <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
           <h3 class="font-display text-2xl font-bold text-ink">{{ job.company }}</h3>
-          <p class="font-mono text-sm text-ink/55">{{ job.period }}</p>
+          <p class="font-mono text-sm font-medium text-ink/70">{{ job.period }}</p>
         </div>
         <p class="mt-1 font-semibold text-moss">{{ job.title }}</p>
+        <p v-if="job.note" class="mt-1 text-sm font-medium text-ink/70">{{ job.note }}</p>
 
-        <ul class="mt-5 space-y-3">
+        <ul class="mt-5 space-y-3.5">
           <li
             v-for="(bullet, bi) in job.highlights"
             :key="bi"
-            class="relative pl-4 text-ink/75 before:absolute before:left-0 before:top-[0.7em] before:h-1 before:w-1 before:rounded-full before:bg-ink/30 before:content-['']"
+            class="relative pl-4 text-[1.05rem] leading-relaxed text-ink before:absolute before:left-0 before:top-[0.7em] before:h-1.5 before:w-1.5 before:rounded-full before:bg-sky before:content-['']"
           >
             {{ bullet }}
           </li>

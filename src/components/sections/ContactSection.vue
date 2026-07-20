@@ -24,7 +24,7 @@ function iconPath(icon: SocialLink['icon']) {
     <div class="reveal max-w-2xl" data-reveal>
       <p class="section-label">Contact</p>
       <h2 id="contact-heading" class="section-title">Let’s build something durable</h2>
-      <p class="section-lead">
+      <p class="section-lead !text-ink">
         Open to thoughtful collaborations, product engineering roles, and interesting systems
         problems. Prefer email or LinkedIn.
       </p>
@@ -44,7 +44,7 @@ function iconPath(icon: SocialLink['icon']) {
       <li v-for="link in profile.socials" :key="link.label">
         <a
           :href="link.href"
-          class="inline-flex min-h-11 min-w-11 items-center gap-2 rounded-md border border-ink/10 bg-white/70 px-3 py-2 text-sm font-medium text-ink no-underline transition hover:border-sky hover:text-sky"
+          class="inline-flex min-h-11 min-w-11 items-center gap-2 rounded-md border border-ink/15 bg-white px-3 py-2 text-sm font-medium text-ink no-underline transition hover:border-sky hover:text-sky"
           :target="link.icon === 'email' ? undefined : '_blank'"
           :rel="link.icon === 'email' ? undefined : 'noopener noreferrer'"
         >
