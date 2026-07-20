@@ -129,11 +129,11 @@ export const profile = {
       ]
     },
     {
-      name: 'UAE E-Invoicing Compliance SaaS',
+      name: 'E-Invoicing Compliance SaaS',
       company: 'KAZ Software',
       role: 'Technical Lead & Project Manager',
       challenge:
-        'Businesses had to check invoices against the UAE PINT-AE standard by hand — 1–2 hours per invoice — with no easy way to catch problems before going live.',
+        'Businesses had to check invoices against the PINT-AE standard by hand — 1–2 hours per invoice — with no easy way to catch problems before going live.',
       solution:
         'Built a multi-tenant platform where businesses upload invoice data as CSV, validate against rules they define in a rule builder, flag exceptions for review, and assemble audit evidence.',
       outcome:
