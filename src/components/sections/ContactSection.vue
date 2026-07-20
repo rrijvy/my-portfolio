@@ -34,9 +34,6 @@ function iconPath(icon: SocialLink['icon']) {
       <a :href="`mailto:${profile.email}`" class="btn-primary">
         {{ profile.email }}
       </a>
-      <a :href="`tel:${profile.phone.replace(/\s/g, '')}`" class="btn-secondary">
-        {{ profile.phone }}
-      </a>
       <a :href="profile.resumeHref" class="btn-secondary" download>Download resume (PDF)</a>
     </div>
 

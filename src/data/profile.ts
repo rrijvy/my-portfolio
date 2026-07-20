@@ -52,7 +52,6 @@ export const profile = {
   shortName: 'Rijvy',
   title: 'Senior Software Engineer',
   location: 'Dhaka, Bangladesh',
-  phone: '+8801717745808',
   email: 'rrijvy@gmail.com',
   headline: 'Building SaaS and document-automation products on AWS and Azure.',
   tagline:
@@ -303,20 +302,17 @@ export const profile = {
     {
       school: 'Daffodil International University',
       credential: 'BSc in Computer Science and Engineering',
-      year: '2019',
-      detail: 'GPA 3.1 / 4.0'
+      year: '2019'
     },
     {
       school: 'Narail Govt Victoria College',
       credential: 'Higher Secondary School Certificate',
-      year: '2013',
-      detail: 'GPA 4.80'
+      year: '2013'
     },
     {
       school: 'Narail Govt High School',
       credential: 'Secondary School Certificate',
-      year: '2011',
-      detail: 'GPA 4.75'
+      year: '2011'
     }
   ] as EducationItem[]
 } as const
