@@ -8,7 +8,7 @@ import { profile } from '@/data/profile'
       <p class="section-label">Selected work</p>
       <h2 id="work-heading" class="section-title">Outcomes that shipped</h2>
       <p class="section-lead">
-        Client systems with measurable impact — document automation, compliance SaaS, regulatory
+        Client systems with measurable impact, document automation, compliance SaaS, regulatory
         AI, and generative tooling.
       </p>
     </div>
