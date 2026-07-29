@@ -4,7 +4,6 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig, type Plugin } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
 import VueDevTools from 'vite-plugin-vue-devtools'
 
 const rootDir = dirname(fileURLToPath(import.meta.url))
@@ -26,7 +25,7 @@ function spaFallback404(): Plugin {
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/my-portfolio/',
-  plugins: [vue(), vueJsx(), VueDevTools(), spaFallback404()],
+  plugins: [vue(), VueDevTools(), spaFallback404()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

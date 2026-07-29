@@ -327,6 +327,7 @@ rp.paragraph_format.space_after = Pt(2)
 for run in rp.runs:
     run.font.size = Pt(10.5)
 
-OUT = r'D:\downloads\Resume_of_Rijvy_v7.docx'
+import os
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Resume_of_Rijvy_v7.docx')
 doc.save(OUT)
 print('Saved: ' + OUT)
